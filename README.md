@@ -1,5 +1,5 @@
 # SILLY-Language
-School project written in Java creating a interpretter for a simple procedural programming language named SILLY
+School project written in Java creating a interpretter for a simple procedural programming language named SILLY. Also provided is Test Code text file demonstrating various capabilies of the language that can be imported and run.
 
 Grammar Rules
 ```
