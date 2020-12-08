@@ -1,0 +1,22 @@
+var x = "global"
+output "cp1"
+repeat 1 {
+    output x
+    output "cp2"
+    var x = "local"
+    if ( true ) {
+        output x
+        var x = "new"
+        var y = 1
+        while ( y == 1 ) {
+            output "cp3"
+            var x = "atarashii"
+            output x
+            y = 2
+        }
+        output x
+    }
+    output x
+}
+output x
+output y
