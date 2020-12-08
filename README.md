@@ -2,6 +2,7 @@
 School project written in Java creating a interpretter for a simple procedural programming language named SILLY
 
 Grammar Rules
+```
 <statement>  --> <vardec> | <assignment> | <output> | <repeat> | <import> | <while> | <if> 
 
 <vardec>     --> 'var' <assignment>
@@ -36,3 +37,4 @@ Grammar Rules
 <unary_op>   --> 'not' | 'len'
 <binary_op>  --> '+' | '-' | '*' | '/' | '%' | '==' | '!=' |
                  '>' | '>=' | '<' | '<=' | 'and' | 'or' | 'index'
+```
